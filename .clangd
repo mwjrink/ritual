@@ -1,0 +1,10 @@
+CompileFlags:
+  Add:
+    - "-I~/VulkanSDK/1.4.328.1/macOS/include"
+    - "-Ilib"
+    - "-DLOG_LEVEL_VERBOSE"
+    - "-DLOG_LEVEL_INFO"
+    - "-DLOG_LEVEL_DEBUG"
+    - "-DLOG_LEVEL_WARNING"
+    - "-DLOG_LEVEL_ERROR"
+    - "-DLOG_LEVEL_CRITICAL"

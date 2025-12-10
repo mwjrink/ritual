@@ -1,0 +1,19 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+Language: C
+AlignConsecutiveDeclarations: true
+PointerAlignment: Left
+ColumnLimit: 120
+RequiresExpressionIndentation: OuterScope
+LambdaBodyIndentation: OuterScope
+UseTab: Never
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 2
+EnumTrailingComma: Insert
+BinPackArguments: false
+BinPackParameters: false
+InsertTrailingCommas: Wrapped
+IndentCaseLabels: true
+AlignConsecutiveMacros: true
+# CaseBlockIndent: Block
